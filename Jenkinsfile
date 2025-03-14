@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://https://github.com/babatundeoloyeX/Code_Jenkins.git' 
+                git branch: 'main', url: 'https://github.com/babatundeoloyeX/Code_Jenkins.git' 
             }
         }
         stage('Initialize Terraform') {
